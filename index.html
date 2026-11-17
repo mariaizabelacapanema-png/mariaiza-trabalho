@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Plantio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Guia de Plantio</h1>
+        <p>Épocas de plantação na região de Capanema - PR</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#plantacoes">Plantações</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#duvidas">Dúvidas</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bem-vindo!</h2>
+
+            <p>
+                Este site foi criado para ajudar a conhecer algumas épocas
+                de plantação na nossa região. Aqui você pode encontrar
+                informações sobre algumas culturas e dicas para o plantio.
+            </p>
+        </section>
+
+
+        <section id="plantacoes">
+
+            <h2>Épocas de Plantação</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Milho</h3>
+                    <p><strong>Época:</strong> primavera e verão</p>
+                    <p>O período pode variar de acordo com as condições do clima.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Soja</h3>
+                    <p><strong>Época:</strong> primavera</p>
+                    <p>É uma cultura bastante presente na agricultura da região.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Feijão</h3>
+                    <p><strong>Época:</strong> varia conforme a variedade</p>
+                    <p>O período de plantio pode mudar de acordo com a cultura escolhida.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Hortaliças</h3>
+                    <p><strong>Época:</strong> varia conforme a cultura</p>
+                    <p>Alface, cenoura e outras hortaliças possuem diferentes períodos.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="dicas">
+
+            <h2>Dicas para o plantio</h2>
+
+            <ul>
+                <li>Observar as condições do clima.</li>
+                <li>Preparar bem o solo antes do plantio.</li>
+                <li>Escolher sementes adequadas.</li>
+                <li>Verificar a necessidade de água de cada cultura.</li>
+            </ul>
+
+        </section>
+
+
+        <section id="duvidas">
+
+            <h2>Envie sua dúvida</h2>
+
+            <form>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="cultura">Sobre qual cultura você quer saber?</label>
+
+                <select id="cultura" name="cultura">
+                    <option value="milho">Milho</option>
+                    <option value="soja">Soja</option>
+                    <option value="feijao">Feijão</option>
+                    <option value="hortalicas">Hortaliças</option>
+                </select>
+
+                <label for="duvida">Sua dúvida:</label>
+
+                <textarea id="duvida" name="duvida" rows="5"></textarea>
+
+                <button type="submit">Enviar dúvida</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Guia de Plantio - Capanema/PR</p>
+    </footer>
+
+</body>
+
+</html>
+```
